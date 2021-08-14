@@ -6,3 +6,9 @@ p {
   color: orange;
   font-size: 12px;
 }
+#third-message {
+  color: blue;
+}
+.blue {
+  color: blue;
+}
