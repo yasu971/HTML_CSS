@@ -50,6 +50,11 @@ li {
   height: 60vh;
 }
 
+.top-image {
+  height: 100%;
+  width: 100%;
+}
+
 /* 新着情報 */
 .upper-content{
   height: 450px;
