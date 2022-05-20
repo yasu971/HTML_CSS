@@ -1,18 +1,28 @@
 .contact {
-    height: 800px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-form {
-    width: 600px;
-  }
-  
-  .name-form {
-    width: 500px;
-    padding: 15px;
-    border: 1px solid white;
-    display: block;
-  }
+  height: 800px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 600px;
+}
+
+.name-form {
+  margin-bottom: 10px;
+}
+
+.message-form {
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.name-form,
+.message-form {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  display: block;
+}
