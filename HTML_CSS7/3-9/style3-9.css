@@ -8,12 +8,10 @@ h1,h2,h3,h4,h5,h6,p {
   padding: 10px 0;
   margin: 0;
 }
-
 ul,li {
   padding: 0;
   margin: 0;
 }
-
 /* ヘッダー */
 header {
   height: 50px;
@@ -21,41 +19,33 @@ header {
   padding: 10px 0;
   display: flex;
 }
-
 .heading {
   width: 50%;
   margin-left: 30px;
 }
-
 .navbar {
   width: 50%;
   padding: 20px;
 }
-
 .nav-lists {
   display: flex;
   justify-content: space-around;
 }
-
 li {
   list-style: none;
 }
-
 /* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
 .contents {
   background-color: white;
 }
-
 .first-view{
   height: 60vh;
   background-color: pink;
 }
-
 .top-image {
   height: 100%;
   width: 100%;
 }
-
 /* 新着情報 */
 .upper-content{
   height: 450px;
@@ -89,11 +79,40 @@ li {
   height: 450px;
   background-color: aquamarine;
 }
-
 /* フォーム */
 .bottom-content {
-  height: 800px;
-  background-color:lightgreen;
+  height: 800px ;
+  margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-field, .large-field {
+  width: 800px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #b5aaaa;
+  display: block;
+}
+
+.small-field {
+  margin: 0 auto 15px;
+}
+
+.large-field {
+  height: 200px;
+  margin: 0 auto 30px;
+}
+
+.send {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: lightblue;
+  color:white;
+  display: block;
 }
 
 /* フッター */
