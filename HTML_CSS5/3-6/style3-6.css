@@ -26,7 +26,8 @@ body{
  }
  
  .message{
- }
+  border: 1px solid white;
+}
  
  .message-name{
   font-size: 16px;
