@@ -23,7 +23,8 @@ body{
  }
  
  .messages{
- }
+  padding: 32px;
+}
  
  .message{
   border: 1px solid white;
