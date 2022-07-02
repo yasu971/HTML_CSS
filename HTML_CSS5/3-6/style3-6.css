@@ -1,40 +1,41 @@
 body{
-  height: 800px;
-  display: flex;
- }
- 
- .side-bar{
-  width: 280px;
-  background-color: lightgray;
- }
- 
- .main{
-  width: 1200px;
- }
- 
- .main-header{
-  height: 120px;
-  background-color: lightblue;
- }
- 
- .main-content{
-  height: 680px;
-  background-color:lightpink;
- }
- 
- .messages{
-  padding: 20px 40px;
-  padding: 32px;
-}
- 
- .message{
-  border: 1px solid white;
-}
- 
- .message-name{
-  font-size: 16px;
- }
- 
- .message-body{
-  font-size: 24px;
- }
+    height: 800px;
+    display: flex;
+   }
+   
+   .side-bar{
+    width: 280px;
+    background-color: lightgray;
+   }
+   
+   .main{
+    width: 1200px;
+   }
+   
+   .main-header{
+    height: 120px;
+    background-color: lightblue;
+   }
+   
+   .main-content{
+    height: 680px;
+    background-color:lightpink;
+   }
+   
+   .messages{
+    padding: 20px 40px;
+    padding: 32px;
+  }
+   
+   .message{
+    border: 1px solid white;
+  }
+   
+   .message-name{
+    font-size: 16px;
+   }
+   
+   .message-body{
+    margin-bottom: 28px;
+    font-size: 24px;
+   }
