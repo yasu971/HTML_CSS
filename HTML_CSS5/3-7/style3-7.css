@@ -5,7 +5,7 @@ header{
   }
   
   .main{
-    background-color: white;
+    color: white;
   }
   
   .parent{
@@ -13,12 +13,16 @@ header{
     height: 360px;
     background-color: pink;
     margin: 40px;
+    position: relative;
   }
   
   .child{
     width :200px;
     height: 200px;
     background-color: skyblue;
+    position: absolute;
+    top: 40px;
+    left: 40px;
   }
   
   footer{
