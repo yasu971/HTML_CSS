@@ -9,3 +9,10 @@
 .contact-form {
   width: 600px;
 }
+
+.name-form {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  display: block;
+}
