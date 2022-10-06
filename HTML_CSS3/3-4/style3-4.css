@@ -1,0 +1,23 @@
+header{
+    height: 50px;
+    width: 80%;
+    font-size: 25px;
+  }
+  .contents{
+    width: 500px;
+  }
+  .top-content{
+    height: 250px;
+    width: 500px;
+  }
+  
+  
+  .bottom-content{
+    height: 250px;
+    width: 500px;
+  }
+  
+  footer{
+    height: 50px;
+    width: 80%;
+  }
